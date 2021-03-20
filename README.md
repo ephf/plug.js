@@ -1,15 +1,15 @@
 # Plug.js
 
-`plug.js` is a javascript package made for create Minecraft plugins. `plug.js` makes `.jar` files out of javascript that you can put in your plugins folder!
+`mcplug.js` is a javascript package made for create Minecraft plugins. `mcplug.js` makes `.jar` files out of javascript that you can put in your plugins folder!
 
 # Use
 
-creating a plugin with `plug.js` is simple! Try following these steps:
+creating a plugin with `mcplug.js` is simple! Try following these steps:
 
-1. Create a plugin! To create a plugin, first require the `plug.js` module, then assign a variable to a new `plug.Plugin`
+1. Create a plugin! To create a plugin, first require the `mcplug.js` module, then assign a variable to a new `plug.Plugin`
 
 ```javascript
-const plug = require('plug.js');
+const plug = require('mcplug.js');
 
 // ARGUMENTS - new plug.Plugin("name", ["package"], ["description"], ["author"], ["version"]);
 var plugin = new plug.Plugin('very cool plugin', 'ephfpkg', 'this is a REALLY good plugin!', 'ephf', '1.0.0');
@@ -27,7 +27,7 @@ var command = new plug.Command('hello', '/hello', 'say hello', ['hi']);
 3. Add a use to the command!
 
 ```javascript
-/* *this is version 1.0.0 of plug.js* most JavaScript functions won't work here. If you need more help, try looking up java tutorials.
+/* *this is version 1.0.0 of mcplug.js* most JavaScript functions won't work here. If you need more help, try looking up java tutorials.
 
 use the object 'java.' if you want to create certain arguments:
 eg. [ java.int | java.Array.String | java.boolean ]
@@ -46,4 +46,4 @@ command.onUse = function(sender, command, label, args) {
 plugin.addCommand(command);
 ```
 
-See typings in `plug.js` for more details ( I don't know if I did the typing right... )
+See typings in `plug.js` for more details ( I don't know if I did the typings right... )

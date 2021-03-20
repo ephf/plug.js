@@ -2,5 +2,27 @@
   "dependencies": {
     "adm-zip": "^0.5.4",
     "rimraf": "^3.0.2"
-  }
+  },
+  "name": "mcplug.js",
+  "description": "`plug.js` is a javascript package made for create Minecraft plugins. `plug.js` makes `.jar` files out of javascript that you can put in your plugins folder!",
+  "version": "1.0.0",
+  "main": "plug.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ephf/plug.js.git"
+  },
+  "keywords": [
+    "plugin",
+    "minecraft"
+  ],
+  "author": "ephf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ephf/plug.js/issues"
+  },
+  "homepage": "https://github.com/ephf/plug.js#readme"
 }
